@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="cBU3FoFDfy3wO6Mudj8p">
-    <mxGraphModel dx="1129" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2459" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,13 +14,16 @@
           <mxGeometry y="54" width="190" height="25" as="geometry" />
         </mxCell>
         <mxCell id="6XweyelYUrj_YVhZijfG-4" value="EDI_TRANSPORT_ORDER_HISTORY" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="960" y="110" width="240" height="79" as="geometry" />
+          <mxGeometry x="960" y="151" width="240" height="79" as="geometry" />
         </mxCell>
         <mxCell id="6XweyelYUrj_YVhZijfG-5" value="&amp;lt;&amp;lt;stereotype1&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6XweyelYUrj_YVhZijfG-4">
           <mxGeometry y="29" width="240" height="25" as="geometry" />
         </mxCell>
         <mxCell id="6XweyelYUrj_YVhZijfG-6" value="stereotype property 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6XweyelYUrj_YVhZijfG-4">
           <mxGeometry y="54" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6XweyelYUrj_YVhZijfG-7" target="6XweyelYUrj_YVhZijfG-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6XweyelYUrj_YVhZijfG-7" value="EDI_TRANSPORT_ORDER_ITEM_HISTORY" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="870" y="495" width="340" height="90" as="geometry" />
@@ -51,11 +54,41 @@
             <mxPoint x="310" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6XweyelYUrj_YVhZijfG-25" value="scenar merge&lt;div&gt;- EDI_TRANSFER_HISTORY je vazano na vice&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;EDI_TRANSPORT_ORDER_HISTORY&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;scenar split&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;EDI_TRANSFER_HISTORY vaze vice&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;EDI_TRANSPORT_ORDER_HISTORY&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="50" width="560" height="100" as="geometry" />
+        <mxCell id="6XweyelYUrj_YVhZijfG-25" value="&lt;div&gt;scenar autoReplace&lt;/div&gt;&lt;div&gt;- CHYBI vazba na items, se kterymi pracuji&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;scenar autoMerge&lt;div&gt;- EDI_TRANSFER_HISTORY je vazano na vice&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;EDI_TRANSPORT_ORDER_HISTORY&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;scenar autoSplit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;EDI_TRANSFER_HISTORY vaze vice&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;EDI_TRANSPORT_ORDER_HISTORY&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267" y="10" width="560" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="6XweyelYUrj_YVhZijfG-26" value="scenar merge&lt;div&gt;- vice EDI_TRANSFER_HISTORY je vazano na jednu&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;EDI_TRANSPORT_ORDER_ITEM_HISTORY&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;scenar split&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;- jedna&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;EDI_TRANSFER_HISTORY je vazana na vice&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;EDI_TRANSPORT_ORDER_HISTORY&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="560" width="560" height="100" as="geometry" />
+        <mxCell id="6XweyelYUrj_YVhZijfG-26" value="&lt;div&gt;scenar autoReplace&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;jedna EDI_TRANSFER_HISTORY je vazana na jednu&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;EDI_TRANSPORT_ORDER_ITEM_HISTORY&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;- 1..N&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;EDI_TRANSPORT_ORDER_ITEM_HISTORY vaze TRANSPORT_ORDER_ITEM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;scenar autoMerge&lt;div&gt;&lt;div&gt;- jedna EDI_TRANSFER_HISTORY je vazana na jednu&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;EDI_TRANSPORT_ORDER_ITEM_HISTORY&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;1..N&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;EDI_TRANSPORT_ORDER_ITEM_HISTORY vaze jednu TRANSPORT_ORDER_ITEM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;scenar autoSplit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;- jedna&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;EDI_TRANSFER_HISTORY je vazana na vice&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;EDI_TRANSPORT_ORDER_ITEM_HISTORY&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="560" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-27" value="scenar autoReplace&lt;div&gt;- nahrazuji ITEMS do existujici objednavky&lt;/div&gt;&lt;div&gt;- pokud je ORDER ve stavu SBM a neni zamknuta&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;scenar autoMerge&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;- pridavam ITEMS do existujici objednavky&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pokud je ORDER ve stavu SBM a neni zamknuta&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;scenar autoSplit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;- zakladam vice ORDERS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;- do kazde dam jeden ITEM&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="40" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-28" value="TRANSPORT_ORDER" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="239" width="140" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-29" value="&amp;lt;&amp;lt;stereotype1&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6XweyelYUrj_YVhZijfG-28">
+          <mxGeometry y="29" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-30" value="stereotype property 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6XweyelYUrj_YVhZijfG-28">
+          <mxGeometry y="54" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6XweyelYUrj_YVhZijfG-33" target="6XweyelYUrj_YVhZijfG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-33" value="TRANSPORT_ORDER_ITEM" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1514" y="500.5" width="206" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-34" value="&amp;lt;&amp;lt;stereotype1&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6XweyelYUrj_YVhZijfG-33">
+          <mxGeometry y="29" width="206" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-35" value="stereotype property 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="6XweyelYUrj_YVhZijfG-33">
+          <mxGeometry y="54" width="206" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-38" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;endFill=1;" edge="1" parent="1" source="6XweyelYUrj_YVhZijfG-4" target="6XweyelYUrj_YVhZijfG-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="159.9951515151515" as="sourcePoint" />
+            <mxPoint x="1637" y="208.48" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
