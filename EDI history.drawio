@@ -34,8 +34,18 @@
         <mxCell id="6XweyelYUrj_YVhZijfG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6XweyelYUrj_YVhZijfG-10" target="6XweyelYUrj_YVhZijfG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-16" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6XweyelYUrj_YVhZijfG-13">
+          <mxGeometry x="0.8946" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6XweyelYUrj_YVhZijfG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6XweyelYUrj_YVhZijfG-10" target="6XweyelYUrj_YVhZijfG-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XweyelYUrj_YVhZijfG-17" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6XweyelYUrj_YVhZijfG-14">
+          <mxGeometry x="0.8251" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6XweyelYUrj_YVhZijfG-10" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: -0.07px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;X_REF_EDI_TRANSFER_HISTORY_EDI_TRANSPORT_ORDER_HISTORY&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="380" y="239" width="420" height="79" as="geometry" />
